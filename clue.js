@@ -2,16 +2,22 @@
 
 var game = {};
 
-game.murderer = "??";
+// game.murderer = "??";
 
-game['weapons'] = [
-    {type: 'lasers', location: 'lab'},
-    {type: 'angry cats', location: 'garden'},
-    {type: 'dish soap', locations: 'bedroom'}
-];
+// game['weapons'] = [
+//     {type: 'lasers', location: 'lab'},
+//     {type: 'angry cats', location: 'garden'},
+//     {type: 'dish soap', locations: 'bedroom'}
+// ];
 
-game.name = [];
-game.name[0] = 'Miss Scarlet';
-game.name.push('Mr. Green');
+// game.name = [];
+// game.name[0] = 'Miss Scarlet';
+// game.name.push('Mr. Green');
+
+const {name, weapon, room} = {"name":"Rusty", "room":"kitchen", "weapon":"candlestick"};
+
+console.log('${name} killed martha with a ${weapon} in the ${room}!');
 
 
+var [a, b] = [1, 2];
+console.log(a,b);
